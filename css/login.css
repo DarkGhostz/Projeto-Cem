@@ -1,0 +1,40 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+}
+.imagem{
+    width: 250px;
+    height: 250px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    margin: -160px;
+}
+.login_input{
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100px;
+    padding: 5px;
+    margin: 8px;
+
+}
+.login_button{
+    padding: 4px;
+    width: 200px;
+    margin: 5px;
+    
+}
+.login_input:hover{
+    background-color: gray;  
+}
+a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
